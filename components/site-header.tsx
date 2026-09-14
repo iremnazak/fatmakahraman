@@ -47,7 +47,7 @@ export function SiteHeader({ variant = "bar", className }: SiteHeaderProps) {
 
   const linkClass = (id: string) =>
     cn(
-      "site-link block wide:whitespace-nowrap",
+      "site-link block",
       hovered !== null && hovered !== id && "wide:opacity-20",
     );
 
@@ -77,16 +77,9 @@ export function SiteHeader({ variant = "bar", className }: SiteHeaderProps) {
         {/* Primary navigation — two rows, two columns (three on wide screens) */}
         <nav
           aria-label="Primary"
-          className="col-span-4 -mt-0.5 hidden grid-cols-2 gap-x-gutter site:grid wide:col-span-3 wide:grid-cols-3"
+          className="col-span-4 -mt-0.5 hidden grid-cols-[max-content_max-content] gap-x-gutter site:grid wide:col-span-3"
         >
-          {navLinks.map(({ key, href }, index) =>
-            renderLink(
-              key,
-              href,
-              // On wide screens the second column spans two tracks, mirroring the reference layout.
-              index % 2 === 1 ? "wide:col-span-2" : undefined,
-            ),
-          )}
+          {navLinks.map(({ key, href }) => renderLink(key, href, "whitespace-nowrap"))}
         </nav>
 
         {/* Secondary navigation — contact & language */}
