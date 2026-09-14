@@ -19,10 +19,9 @@ export function ContactModule() {
         <TintedImage
           src="/images/site/contact.jpg"
           alt={t("imageAlt")}
-          width={1540}
-          height={1079}
+          width={977}
+          height={581}
           priority
-          plain
           sizes="(max-width: 812px) 100vw, 50vw"
         />
 
