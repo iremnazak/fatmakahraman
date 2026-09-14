@@ -50,6 +50,14 @@
   }
 }
 
+/* On wide screens the header sits inside the sticky left column, so the
+   right column no longer needs to offset for it. */
+@media only screen and (min-width: 1381px) {
+  :root {
+    --header-height: 0px;
+  }
+}
+
 @theme inline {
   --font-sans: var(--font-grotesk), "Helvetica Neue", Helvetica, Arial, sans-serif;
 

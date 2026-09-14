@@ -13,8 +13,18 @@ import { cn } from "@/lib/utils";
 
 const ease = [0.45, 0, 0.15, 1] as const;
 
-export function SiteHeader() {
+type SiteHeaderProps = {
+  /**
+   * "bar": full-width header above the page grid (mobile & tablet).
+   * "column": header nested inside the sticky left column (wide screens).
+   */
+  variant?: "bar" | "column";
+  className?: string;
+};
+
+export function SiteHeader({ variant = "bar", className }: SiteHeaderProps) {
   const t = useTranslations("Nav");
+  const isBar = variant === "bar";
   const pathname = usePathname();
   const [hovered, setHovered] = useState<string | null>(null);
   const [open, setOpen] = useState(false);
@@ -37,7 +47,7 @@ export function SiteHeader() {
 
   const linkClass = (id: string) =>
     cn(
-      "site-link block",
+      "site-link block wide:whitespace-nowrap",
       hovered !== null && hovered !== id && "wide:opacity-20",
     );
 
@@ -56,7 +66,13 @@ export function SiteHeader() {
   );
 
   return (
-    <header className="relative z-20 h-header w-full bg-creme caps">
+    <header
+      className={cn(
+        "relative z-20 w-full bg-creme caps",
+        isBar ? "h-header" : "h-auto",
+        className,
+      )}
+    >
       <div className="relative z-40 grid h-full w-full grid-cols-6 items-start gap-x-gutter border-b p-gutter-half site:grid-cols-10 wide:grid-cols-5">
         {/* Primary navigation — two rows, two columns (three on wide screens) */}
         <nav
@@ -112,6 +128,7 @@ export function SiteHeader() {
       </Link>
 
       {/* Mobile menu trigger */}
+      {isBar && (
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
@@ -121,8 +138,10 @@ export function SiteHeader() {
       >
         {open ? t("close") : t("menu")}
       </button>
+      )}
 
       {/* Mobile menu overlay */}
+      {isBar && (
       <AnimatePresence>
         {open && (
           <motion.div
@@ -176,6 +195,7 @@ export function SiteHeader() {
           </motion.div>
         )}
       </AnimatePresence>
+      )}
     </header>
   );
 }
