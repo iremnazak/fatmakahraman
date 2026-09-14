@@ -1,0 +1,151 @@
+{
+	"Metadata": {
+		"title": "Fatma Kahraman",
+		"description": "Mimar / Proje Yönetimi Profesyoneli — büyük ölçekli tasarla-yap projelerinde 25 yılı aşkın tasarım ve proje yönetimi deneyimi.",
+		"pages": {
+			"practice": "Hakkında",
+			"projects": "Seçilmiş Projeler",
+			"experience": "Deneyim",
+			"approach": "Proje Yönetimi",
+			"contact": "İletişim"
+		}
+	},
+	"Nav": {
+		"practice": "Hakkında",
+		"projects": "Seçilmiş Projeler",
+		"experience": "Deneyim ve Eğitim",
+		"approach": "Proje Yönetimi",
+		"contact": "İletişim",
+		"linkedin": "LinkedIn",
+		"menu": "Menü",
+		"close": "Kapat",
+		"language": "English",
+		"home": "Ana Sayfa"
+	},
+	"Home": {
+		"heroAlt": "Katar Ulusal Kongre Merkezi — Sidra ağacı giriş strüktürü",
+		"statement": "Tasarımın, ilk günün eskizinden son çivinin çakıldığı güne ve kullanıcının binayı işlettiği sürece kadar uzanan, hiç bitmeyen bir yolculuk olduğuna inanıyorum. Tüm tasarım disiplinleri öyle bir uyum içinde çalışmalı ki bütünsel deneyim her zaman müşteriyi öne koysun.",
+		"statementSecondary": "Gayrimenkul geliştiriciler, yükleniciler ve tasarımcılarla büyük ölçekli tasarla-yap projelerinde geçen yirmi beş yılı aşkın süre bana şunu öğretti: paydaşlar ve mühendislik disiplinleri arasında paylaşılan çözüm odaklı yaklaşımlar ve ölçülebilir teknik yöntemler, proje yaşam döngüsünü daha verimli bir geleceğe taşır.",
+		"signature": "Çünkü bir bina, inşa edilene kadar tasarlanır."
+	},
+	"Practice": {
+		"title": "Hakkında",
+		"intro": "Çizen mimarlar vardır, bir de çizimin inşa edilmesini sağlayan mimarlar. Fatma Kahraman yirmi beş yılı aşkın süredir ikisini birden yapıyor — Türkiye, Körfez ve Orta Asya'da havalimanları, kongre merkezleri, karma kullanımlı yerleşkeler, oteller ve genel müdürlük binalarında.",
+		"chapters": {
+			"design": {
+				"label": "Tasarım",
+				"body": "Mesleki yolculuğuma Mimar Sinan Üniversitesi'nden hocam Prof. Dr. Fatih Gorbon ile başladım. Birlikte mimari yarışmalara katıldık, yat projeleri tasarlayıp ürettik. Bu dönem bana tasarımı öğretti."
+			},
+			"coordination": {
+				"label": "Proje Koordinasyonu ve Detay Tasarımı",
+				"body": "Ardından Turgut Alton Mimarlık'ta büyük ölçekli uluslararası projelerin detay ve uygulama çizimlerini hazırlayarak teknik derinlik ve ileri CAD deneyimi kazandım. Bu deneyim, sonraki yıllarda proje yönetimindeki başarımın temelini oluşturdu. Bu dönem bana proje koordinasyonunu, detay tasarımını ve ileri CAD'i öğretti."
+			},
+			"management": {
+				"label": "Proje ve Yapım Yönetimi",
+				"body": "2009'dan sonra masanın diğer tarafına geçmeye karar verdim; gayrimenkul geliştiriciler ve yükleniciler için yurt dışında büyük ölçekli projelerin proje ve tasarım yönetiminde çalışmaya başladım. Bu dönem bana proje yönetimini ve yapım yönetimini öğretti."
+			}
+		},
+		"profile": {
+			"name": "Fatma Kahraman",
+			"role": "Mimar / Proje Yönetimi Profesyoneli",
+			"credentials": "Mimarlık Lisans, Mimar Sinan Üniversitesi, 1993\nPMI Proje Yönetimi Profesyoneli, Lisans 08/195",
+			"quote": "Tasarım, ilk günün eskizinden son çivinin çakıldığı güne — ve kullanıcının işletme sürecine — kadar uzanan hiç bitmeyen bir yolculuktur.",
+			"body": "Fatma'nın yaklaşımı, bir projenin her tarafında çalışmış olmaktan biçimlenir: yarışma projeleri ve yatlar üreten bir tasarımcı olarak; saraylar, oteller ve bir kongre merkezi için uygulama projeleri çizen bir baş mimar olarak; havalimanları, genel müdürlük binaları ve karma kullanımlı yerleşkelerde yükleniciler ve geliştiriciler adına tasarım müdürü, proje koordinatörü ve tasarım direktörü olarak. Otuzu aşkın uzmandan oluşan mimari koordinasyon gruplarını, on üç kişilik iç mimari ekiplerini ve grup genel müdürlüğü düzeyinde tasarım ve BIM departmanlarını yönetti.",
+			"sectors": "Sektörler",
+			"skills": "Uzmanlık",
+			"tools": "Araçlar",
+			"languages": "Diller",
+			"email": "E-posta",
+			"phone": "Telefon",
+			"linkedin": "LinkedIn"
+		}
+	},
+	"Projects": {
+		"title": "Seçilmiş Projeler",
+		"intro": "Fatma'nın nasıl çalıştığını anlatan, özenle seçilmiş projeler. Boğaz'daki bir saraydan Doha'daki bir kongre merkezine, uluslararası havalimanlarından şehir ölçeğinde karma kullanımlı bir yerleşkeye — bu portfolyo her projeyi tasarım, koordinasyon ve yapım süreçleri boyunca ve Fatma'nın üstlendiği rolle birlikte izliyor.",
+		"labels": {
+			"typology": "Tipoloji",
+			"location": "Konum",
+			"date": "Tarih",
+			"role": "Rol",
+			"company": "Şirket",
+			"credits": "Künye",
+			"facts": "Bilgiler"
+		},
+		"detail": {
+			"nextProject": "Sonraki Proje",
+			"previousProject": "Önceki Proje",
+			"allProjects": "Tüm Projeler",
+			"gallery": "Galeri"
+		},
+		"notFound": {
+			"title": "Proje bulunamadı",
+			"body": "Aradığınız proje mevcut değil ya da taşınmış.",
+			"cta": "Seçilmiş projelere dön"
+		}
+	},
+	"Experience": {
+		"title": "Deneyim ve Eğitim",
+		"intro": "İstanbul'daki bir mimarlık ofisinden bölgenin en büyük geliştiricileri ve yüklenicileri için tasarım ve proje yönetimine uzanan otuz yıllık mesleki deneyim — ve bunun temelini oluşturan eğitim ve sertifikalar.",
+		"sections": {
+			"positions": "Mesleki Deneyim",
+			"education": "Eğitim",
+			"certifications": "Sertifikalar ve Eğitimler",
+			"skills": "Beceriler"
+		},
+		"labels": {
+			"present": "Devam ediyor",
+			"projects": "Projeler",
+			"viewProject": "Projeyi gör",
+			"management": "Yönetim",
+			"sectors": "Sektörler",
+			"tools": "Teknik",
+			"languages": "Diller",
+			"references": "Referanslar talep üzerine sunulur."
+		}
+	},
+	"Approach": {
+		"title": "Proje Yönetimi",
+		"intro": "Her proje aynı yaşam döngüsünü izler: geliştirme, tasarım, yapım ve işletme. Fark, her aşamanın nasıl planlandığında, kimin koordine edildiğinde ve neyin belgelendiğinde yatar. Fatma'nın fizibiliteden teslime kadar tüm disiplinlerde uyguladığı çerçeve budur.",
+		"lifecycle": "Proje Yaşam Döngüsü",
+		"designPhases": "Tüm proje disiplinleri için tasarım aşamaları",
+		"phaseLabel": "Aşama",
+		"teams": "Yaşam döngüsü boyunca ekipler",
+		"teamsLabel": "Ekip",
+		"phasesLabel": "Etkin olduğu aşama",
+		"consultants": "Tasarım danışmanları",
+		"specialists": "Uzman danışmanlar — yangın, aydınlatma, cephe, akustik, trafik",
+		"imageAlt": "Dekoratif portal detay ve kesiti — Maskat Uluslararası Havalimanı"
+	},
+	"Contact": {
+		"title": "İletişim",
+		"intro": "Fatma, bir proje planlayan geliştiriciler, yükleniciler ve tasarımcılardan — ya da yalnızca tasarım ile yapımın birlikte nasıl daha iyi çalışabileceğini merak edenlerden — haber almaktan her zaman memnuniyet duyar. Proje yönetimi, tasarım yönetimi ya da danışmanlık için lütfen iletişime geçin.",
+		"imageAlt": "Kolon başlığı detayları — Maskat Uluslararası Havalimanı check-in salonu",
+		"sections": {
+			"studio": "İstanbul",
+			"direct": "Doğrudan",
+			"follow": "Takip Et",
+			"address": "Adres"
+		},
+		"labels": {
+			"email": "E-posta",
+			"phone": "Telefon",
+			"linkedin": "LinkedIn"
+		}
+	},
+	"Footer": {
+		"name": "Fatma Kahraman",
+		"role": "Mimar / Proje Yönetimi Profesyoneli",
+		"registration": "PMI Proje Yönetimi Profesyoneli",
+		"license": "Lisans 08/195",
+		"education": "Mimar Sinan Üniversitesi, Mimarlık Fakültesi",
+		"degree": "Mimarlık Lisans, 1993",
+		"rights": "Tüm hakları saklıdır © {year}",
+		"statement": "Bu portfolyo, Fatma Kahraman'ın tasarımcı, baş mimar, proje koordinatörü, tasarım müdürü ya da tasarım direktörü olarak görev aldığı projeleri sunar. Tasarımcılar, yükleniciler ve işverenler her proje sayfasında belirtilmiştir."
+	},
+	"NotFound": {
+		"title": "Sayfa bulunamadı",
+		"body": "Aradığınız sayfa mevcut değil.",
+		"cta": "Ana sayfaya dön"
+	}
+}

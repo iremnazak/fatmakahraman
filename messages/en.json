@@ -1,0 +1,151 @@
+{
+	"Metadata": {
+		"title": "Fatma Kahraman",
+		"description": "Architect / Project Management Professional — over 25 years of design and project management on large-scale Design & Build projects.",
+		"pages": {
+			"practice": "Practice",
+			"projects": "Selected Projects",
+			"experience": "Experience",
+			"approach": "Project Management",
+			"contact": "Contact"
+		}
+	},
+	"Nav": {
+		"practice": "Practice",
+		"projects": "Selected Projects",
+		"experience": "Experience & Education",
+		"approach": "Project Management",
+		"contact": "Contact",
+		"linkedin": "LinkedIn",
+		"menu": "Menu",
+		"close": "Close",
+		"language": "Türkçe",
+		"home": "Home"
+	},
+	"Home": {
+		"heroAlt": "Qatar National Convention Centre — the Sidra tree entrance structure",
+		"statement": "I believe that design is a never-ending journey — from the first day's sketch to the day the last nail is hammered, and on through the user's operation of the building. All design disciplines must work in such harmony that the overall experience puts the customer first.",
+		"statementSecondary": "Over twenty-five years with real estate developers, contractors and designers on large-scale Design & Build projects have taught me that solution-oriented approaches and measurable technical methods, shared between stakeholders and engineering disciplines, push the project life cycle towards a more efficient future.",
+		"signature": "Because a building is designed until it is built."
+	},
+	"Practice": {
+		"title": "Practice",
+		"intro": "There are architects who draw, and there are architects who make sure the drawing gets built. Fatma Kahraman has spent more than twenty-five years doing both — on airports, convention centres, mixed-use districts, hotels and headquarters across Türkiye, the Gulf and Central Asia.",
+		"chapters": {
+			"design": {
+				"label": "Design",
+				"body": "I started my professional journey with Prof. Dr. Fatih Gorbon, one of my professors at Mimar Sinan University. We entered architectural competitions together and designed and produced yacht projects. This taught me design."
+			},
+			"coordination": {
+				"label": "Project Coordination & Detail Design",
+				"body": "Afterwards I gained technical depth and advanced CAD experience preparing the detail and issue-for-construction drawings of large-scale international projects at Turgut Alton Architecture. This experience became the foundation of my later success in project management. This taught me project coordination, detail design and advanced CAD."
+			},
+			"management": {
+				"label": "Project & Construction Management",
+				"body": "After 2009 I decided to move to the other side of the table and began working for real estate developers and contractors in the project and design management of large-scale projects abroad. This taught me project management and construction management."
+			}
+		},
+		"profile": {
+			"name": "Fatma Kahraman",
+			"role": "Architect / Project Management Professional",
+			"credentials": "B.Arch, Mimar Sinan University, 1993\nPMI Project Management Professional, License 08/195",
+			"quote": "Design is a never-ending journey from the first day's sketch to the day the last nail is hammered — and on through the user's operation phase.",
+			"body": "Fatma's approach is formed by having worked on every side of a project: as a designer producing competition entries and yachts, as a lead architect drawing construction documents for palaces, hotels and a convention centre, and as a design manager, project coordinator and director of design for contractors and developers on airports, headquarters and mixed-use districts. She has led architectural coordination groups of more than thirty specialists, interior architecture teams of thirteen and design and BIM departments at group headquarters level.",
+			"sectors": "Sectors",
+			"skills": "Expertise",
+			"tools": "Tools",
+			"languages": "Languages",
+			"email": "Email",
+			"phone": "Phone",
+			"linkedin": "LinkedIn"
+		}
+	},
+	"Projects": {
+		"title": "Selected Projects",
+		"intro": "A curated selection of projects — the ones that tell the story of how Fatma works. From a palace on the Bosphorus and a convention centre in Doha to international airports and a city-scale mixed-use district, this portfolio follows each project through design, coordination and construction, and the role she played in it.",
+		"labels": {
+			"typology": "Typology",
+			"location": "Location",
+			"date": "Date",
+			"role": "Role",
+			"company": "Company",
+			"credits": "Credits",
+			"facts": "Facts"
+		},
+		"detail": {
+			"nextProject": "Next Project",
+			"previousProject": "Previous Project",
+			"allProjects": "All Projects",
+			"gallery": "Gallery"
+		},
+		"notFound": {
+			"title": "Project not found",
+			"body": "The project you are looking for does not exist or has been moved.",
+			"cta": "Back to selected projects"
+		}
+	},
+	"Experience": {
+		"title": "Experience & Education",
+		"intro": "Thirty years of professional experience, from an architectural office in Istanbul to design and project management for the largest developers and contractors in the region — and the education and certification that underpin it.",
+		"sections": {
+			"positions": "Professional Experience",
+			"education": "Education",
+			"certifications": "Certifications & Training",
+			"skills": "Skills"
+		},
+		"labels": {
+			"present": "Present",
+			"projects": "Projects",
+			"viewProject": "View project",
+			"management": "Management",
+			"sectors": "Sectors",
+			"tools": "Technical",
+			"languages": "Languages",
+			"references": "References are available upon request."
+		}
+	},
+	"Approach": {
+		"title": "Project Management",
+		"intro": "Every project follows the same life cycle: development, design, construction and operation. The difference lies in how each phase is planned, who is coordinated and what is documented. This is the framework Fatma applies across all disciplines — from feasibility to hand-over.",
+		"lifecycle": "Project Life Cycle",
+		"designPhases": "Project design phases for all project disciplines",
+		"phaseLabel": "Phase",
+		"teams": "Teams across the life cycle",
+		"teamsLabel": "Team",
+		"phasesLabel": "Active in",
+		"consultants": "Design consultants",
+		"specialists": "Specialist consultants — fire, lighting, façade, acoustic, traffic",
+		"imageAlt": "Detail and section of a decorative portal — Muscat International Airport"
+	},
+	"Contact": {
+		"title": "Contact",
+		"intro": "Fatma is always happy to hear from developers, contractors and designers who are planning a project — or who are simply curious about how design and construction can work better together. For enquiries about project management, design management or consultancy, please get in touch.",
+		"imageAlt": "Column head details — Muscat International Airport check-in hall",
+		"sections": {
+			"studio": "Istanbul",
+			"direct": "Direct",
+			"follow": "Follow",
+			"address": "Address"
+		},
+		"labels": {
+			"email": "Email",
+			"phone": "Phone",
+			"linkedin": "LinkedIn"
+		}
+	},
+	"Footer": {
+		"name": "Fatma Kahraman",
+		"role": "Architect / Project Management Professional",
+		"registration": "PMI Project Management Professional",
+		"license": "License 08/195",
+		"education": "Mimar Sinan University, Faculty of Architecture",
+		"degree": "Bachelor of Architecture, 1993",
+		"rights": "All rights reserved © {year}",
+		"statement": "This portfolio presents projects in which Fatma Kahraman took part as designer, lead architect, project coordinator, design manager or director of design. Designers, contractors and clients are credited on each project page."
+	},
+	"NotFound": {
+		"title": "Page not found",
+		"body": "The page you are looking for does not exist.",
+		"cta": "Back to home"
+	}
+}
