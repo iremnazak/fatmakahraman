@@ -18,8 +18,9 @@
   --gutter-3: calc(var(--gutter) * 3);
   --gutter-4: calc(var(--gutter) * 4);
 
-  /* Width of the sticky left column; the divider sits at this point. */
-  --column-left: 42%;
+  /* Width of the sticky left column; the divider sits at this point.
+     Golden ratio: 38.2% left, 61.8% right. */
+  --column-left: 38.2%;
 
   --paragraph-spacing: 12px;
   --column-bottom-padding: 90px;
