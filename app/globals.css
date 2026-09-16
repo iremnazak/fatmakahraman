@@ -18,6 +18,9 @@
   --gutter-3: calc(var(--gutter) * 3);
   --gutter-4: calc(var(--gutter) * 4);
 
+  /* Width of the sticky left column; the divider sits at this point. */
+  --column-left: 42%;
+
   --paragraph-spacing: 12px;
   --column-bottom-padding: 90px;
   --header-height: 97px;
@@ -152,6 +155,15 @@
     background: var(--ironbark);
     color: var(--creme);
   }
+}
+
+/* Two-column split — left (sticky) and right (scrolling) column widths. */
+@utility col-left {
+  width: var(--column-left);
+}
+
+@utility col-right {
+  width: calc(100% - var(--column-left));
 }
 
 @utility site-link {

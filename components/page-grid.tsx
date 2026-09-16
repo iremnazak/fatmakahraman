@@ -21,13 +21,13 @@ type PageGridProps = {
 export function PageGrid({ aside, children, className, contentClassName }: PageGridProps) {
   return (
     <div className={cn("flex w-full flex-wrap items-start justify-between", className)}>
-      <aside className="w-full site:sticky site:top-0 site:w-1/2">
+      <aside className="w-full site:sticky site:top-0 site:col-left">
         <SiteHeader variant="column" className="hidden wide:block" />
         {aside}
       </aside>
       <section
         className={cn(
-          "relative w-full pb-column-bottom site:w-1/2 site:border-l",
+          "relative w-full pb-column-bottom site:col-right site:border-l",
           contentClassName,
         )}
       >
