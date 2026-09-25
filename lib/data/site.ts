@@ -12,7 +12,9 @@ export const site = {
     city: "Istanbul",
   },
   social: {
-    linkedin: process.env.NEXT_PUBLIC_LINKEDIN_URL || "https://www.linkedin.com/",
+    linkedin:
+      process.env.NEXT_PUBLIC_LINKEDIN_URL ||
+      "https://www.linkedin.com/in/fatma-kahraman-erim-a27a9816/",
   },
   credentials: {
     registration: "PMI PMP · License 08/195",
