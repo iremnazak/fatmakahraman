@@ -12,21 +12,21 @@ export function SiteFooter() {
       {/* Wide screens: the vertical divider continues through the footer —
           credentials on the left, statement on the right. */}
       <div className="hidden w-full flex-wrap wide:flex">
-        <div className="col-left grid grid-cols-5 gap-x-gutter px-gutter-half pb-[13px] pt-gutter-half">
-          <Link href="/" className="col-span-1 normal-case">
+        <div className="col-left grid grid-cols-[max-content_1fr_1fr] gap-x-gutter px-gutter-half pb-[13px] pt-gutter-half">
+          <Link href="/" className="col-span-1 whitespace-nowrap normal-case">
             {site.name}
           </Link>
-          <p className="col-span-2">
+          <p className="col-span-1">
             {t("registration")}
             <br />
             {t("license")}
           </p>
-          <p className="col-span-2">
+          <p className="col-span-1">
             {t("education")}
             <br />
             {t("degree")}
           </p>
-          <p className="col-span-4 col-start-2 pt-[21px]">{t("rights", { year })}</p>
+          <p className="col-span-2 col-start-2 pt-[21px]">{t("rights", { year })}</p>
         </div>
         <div className="col-right border-l px-gutter-half pb-[13px] pt-gutter-half">
           <p className="max-w-[580px]">{t("statement")}</p>

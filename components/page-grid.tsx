@@ -22,7 +22,7 @@ export function PageGrid({ aside, children, className, contentClassName }: PageG
   return (
     <div className={cn("flex w-full flex-wrap items-start justify-between", className)}>
       <aside className="w-full site:sticky site:top-0 site:col-left">
-        <SiteHeader variant="column" className="hidden wide:block" />
+        <SiteHeader variant="column" className="hidden site:block" />
         {aside}
       </aside>
       <section

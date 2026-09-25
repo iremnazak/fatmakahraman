@@ -18,9 +18,10 @@ type SiteHeaderProps = {
    * "bar": the compact bar — a menu trigger, the wordmark and the mark.
    * "column": the full navigation, nested inside the sticky left column.
    *
-   * There are only these two. The bar carries every width below the `wide`
-   * breakpoint, above which the left column is wide enough to hold the
-   * navigation itself.
+   * There are only these two, and they switch where the page itself does:
+   * below the `site` breakpoint the page is one column and the header is a
+   * bar; at or above it the page splits and the header moves into the
+   * sticky left column.
    */
   variant?: "bar" | "column";
   className?: string;
@@ -79,17 +80,19 @@ export function SiteHeader({ variant = "bar", className }: SiteHeaderProps) {
     );
 
     return (
-      <header className={cn("relative z-20 w-full bg-creme caps", className)}>
-        <div className="grid w-full grid-cols-5 items-start gap-x-gutter border-b p-gutter-half">
+      <header className={cn("relative z-20 w-full border-b bg-creme caps", className)}>
+        {/* Sized to its contents rather than to a fixed grid, so it survives
+            the narrow left column at the bottom of its range. */}
+        <div className="flex w-full items-start justify-between gap-gutter-half px-gutter-half pt-gutter-half">
           <nav
             aria-label="Primary"
-            className="col-span-3 -mt-0.5 grid grid-cols-[max-content_max-content] gap-x-gutter"
+            className="-mt-0.5 grid grid-cols-1 gap-x-gutter-half wide:grid-cols-[max-content_max-content]"
           >
             {navLinks.map(({ key, href }) => renderLink(key, href))}
           </nav>
 
           {/* Contact and language, set against the mark */}
-          <div className="col-start-4 -mt-0.5 justify-self-end text-right">
+          <div className="-mt-0.5 ml-auto text-right">
             {navLinksRight.map(({ key, href }) => renderLink(key, href))}
             <a
               href={site.social.linkedin}
@@ -106,12 +109,17 @@ export function SiteHeader({ variant = "bar", className }: SiteHeaderProps) {
             <LocaleSwitcher className={cn(linkClass("language"), "mt-[1.3em] block")} />
           </div>
 
-          <Link href="/" aria-label={t("home")} className="col-start-5 block h-full w-full">
-            <LogoMark className="ml-auto block h-auto w-full max-w-[100px]" />
+          <Link href="/" aria-label={t("home")} className="block shrink-0">
+            <LogoMark className="block h-auto w-[clamp(40px,5vw,100px)]" />
           </Link>
         </div>
 
-        {wordmark}
+        <Link
+          href="/"
+          className="block px-gutter-half pb-gutter-half pt-gutter-quarter text-wordmark normal-case text-ironbark"
+        >
+          {site.name}
+        </Link>
       </header>
     );
   }
