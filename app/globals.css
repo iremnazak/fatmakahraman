@@ -24,7 +24,7 @@
 
   --paragraph-spacing: 12px;
   --column-bottom-padding: 90px;
-  --header-height: 97px;
+  --header-height: 86px;
   --content-top: 45px;
 
   --text-body: 11.5px;
@@ -49,15 +49,15 @@
   :root {
     --gutter: 20px;
     --column-bottom-padding: 80px;
-    --header-height: 86px;
     --content-top: 42px;
     --text-headline: 30px;
     --text-intro: 17px;
   }
 }
 
-/* On wide screens the header sits inside the sticky left column, so the
-   right column no longer needs to offset for it. */
+/* The header has two forms: the compact bar below this breakpoint, and the
+   full navigation inside the sticky left column at or above it — where the
+   page no longer needs to offset for a bar. */
 @media only screen and (min-width: 1381px) {
   :root {
     --header-height: 0px;
