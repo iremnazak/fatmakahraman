@@ -30,7 +30,9 @@ export function PracticeModule() {
                 <span className="block">{t(`chapters.${chapter}.label`)}</span>
               </div>
               <p className="col-span-6 mt-2 text-intro site:col-span-6 site:mt-0">
-                {t(`chapters.${chapter}.body`)}
+                {t.rich(`chapters.${chapter}.body`, {
+                  b: (chunks) => <strong className="font-bold">{chunks}</strong>,
+                })}
               </p>
             </li>
           ))}

@@ -11,7 +11,7 @@ import "../globals.css";
 
 const grotesk = Hanken_Grotesk({
   subsets: ["latin", "latin-ext"],
-  weight: ["400", "500"],
+  weight: ["400", "700"],
   variable: "--font-grotesk",
   display: "swap",
 });
