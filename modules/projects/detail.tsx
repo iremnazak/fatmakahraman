@@ -62,7 +62,7 @@ export function ProjectDetail({ project }: ProjectDetailProps) {
         </div>
 
         {/* Narrative */}
-        <div className="prose-site max-w-[580px] text-[15px] leading-[1.24] text-ink">
+        <div className="prose-site max-w-[580px] text-prose text-ink">
           {project.narrative[locale].map((paragraph, i) => (
             <p key={i}>{paragraph}</p>
           ))}

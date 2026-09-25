@@ -40,7 +40,7 @@ export function ApproachModule() {
                 </div>
                 <div className="col-span-6 mt-2 site:col-span-6 site:mt-0">
                   <h3 className="caps">{phase.title[locale]}</h3>
-                  <ul className="mt-gutter-quarter max-w-[580px] text-[15px] leading-[1.24] text-ink">
+                  <ul className="mt-gutter-quarter max-w-[580px] text-prose text-ink">
                     {phase.items[locale].map((item) => (
                       <li key={item} className="flex gap-2">
                         <span aria-hidden="true">—</span>

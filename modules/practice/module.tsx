@@ -29,7 +29,7 @@ export function PracticeModule() {
                 <span className="block">0{index + 1}</span>
                 <span className="block">{t(`chapters.${chapter}.label`)}</span>
               </div>
-              <p className="col-span-6 mt-2 text-intro site:col-span-6 site:mt-0">
+              <p className="col-span-6 mt-2 text-prose site:col-span-6 site:mt-0">
                 {t.rich(`chapters.${chapter}.body`, {
                   b: (chunks) => <strong className="font-bold uppercase">{chunks}</strong>,
                 })}
@@ -60,7 +60,7 @@ export function PracticeModule() {
             <blockquote className="mt-gutter border-l pl-gutter-half text-intro">
               “{t("profile.quote")}”
             </blockquote>
-            <p className="mt-gutter text-[15px] leading-[1.24]">{t("profile.body")}</p>
+            <p className="mt-gutter text-prose">{t("profile.body")}</p>
 
             <dl className="mt-gutter grid grid-cols-2 gap-x-gutter gap-y-gutter-half caps">
               <div>

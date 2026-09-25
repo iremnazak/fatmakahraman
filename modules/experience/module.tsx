@@ -61,7 +61,7 @@ export function ExperienceModule() {
                       <span className="normal-case">{position.company}</span>
                     )}
                   </h3>
-                  <p className="mt-gutter-quarter max-w-[580px] text-[15px] leading-[1.24] text-ink">
+                  <p className="mt-gutter-quarter max-w-[580px] text-prose text-ink">
                     {position.summary[locale]}
                   </p>
                   {position.projects && position.projects.length > 0 && (
