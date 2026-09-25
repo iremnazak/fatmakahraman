@@ -8,7 +8,7 @@ export default function SiteLayout({
 }) {
   return (
     <div className="flex min-h-dvh flex-col">
-      <SiteHeader variant="bar" className="site:hidden" />
+      <SiteHeader variant="bar" className="split:hidden" />
       <main className="flex-1">{children}</main>
       <SiteFooter />
     </div>

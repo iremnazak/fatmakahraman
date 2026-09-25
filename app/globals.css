@@ -3,6 +3,15 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* The page splits into two columns from 813px in landscape, but a portrait
+   tablet is held back to 1181px — at iPad width in portrait the two columns
+   would each be too narrow to carry their content. */
+@custom-variant split {
+  @media only screen and (min-width: 1181px), only screen and (min-width: 813px) and (orientation: landscape) {
+    @slot;
+  }
+}
+
 :root {
   --creme: #f8f6f5;
   --ironbark: #381d02;
@@ -55,10 +64,11 @@
   }
 }
 
-/* The header has two forms: the compact bar below this breakpoint, and the
-   full navigation inside the sticky left column at or above it — where the
-   page no longer needs to offset for a bar. */
-@media only screen and (min-width: 813px) {
+/* The header has two forms: the compact bar, and the full navigation inside
+   the sticky left column wherever the page splits — where the page no longer
+   needs to offset for a bar. */
+@media only screen and (min-width: 1181px),
+  only screen and (min-width: 813px) and (orientation: landscape) {
   :root {
     --header-height: 0px;
   }

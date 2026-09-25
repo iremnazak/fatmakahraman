@@ -13,21 +13,20 @@ type PageGridProps = {
 /**
  * Two-column page layout: a sticky left column with the page title and
  * introduction, and a scrolling right column separated by a hairline.
- * On wide screens the site header lives inside the sticky left column
- * and the right column starts at the very top of the page; below that
- * the header is a full-width bar rendered by the site layout.
- * Collapses to a single column below the `site` breakpoint.
+ * Where the page splits, the site header lives inside the sticky left
+ * column and the right column starts at the very top of the page; below
+ * that the header is a full-width bar rendered by the site layout.
  */
 export function PageGrid({ aside, children, className, contentClassName }: PageGridProps) {
   return (
     <div className={cn("flex w-full flex-wrap items-start justify-between", className)}>
-      <aside className="w-full site:sticky site:top-0 site:col-left">
-        <SiteHeader variant="column" className="hidden site:block" />
+      <aside className="w-full split:sticky split:top-0 split:col-left">
+        <SiteHeader variant="column" className="hidden split:block" />
         {aside}
       </aside>
       <section
         className={cn(
-          "relative w-full pb-column-bottom site:col-right site:border-l",
+          "relative w-full pb-column-bottom split:col-right split:border-l",
           contentClassName,
         )}
       >
