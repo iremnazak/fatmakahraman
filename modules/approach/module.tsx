@@ -7,6 +7,7 @@ import { SectionHeading } from "@/components/section-heading";
 import { phases } from "@/lib/data/approach";
 
 import { ApproachDiagram } from "./diagram";
+import { LifecycleTimeline } from "./lifecycle-timeline";
 
 export function ApproachModule() {
   const t = useTranslations("Approach");
@@ -21,20 +22,11 @@ export function ApproachModule() {
       }
     >
       <div className="flex flex-col gap-gutter-2 p-gutter-half pt-content-top">
-        <TintedImage
-          src="/images/site/approach.jpg"
-          alt={t("imageAlt")}
-          width={1672}
-          height={986}
-          priority
-          plain
-          sizes="(max-width: 812px) 100vw, 50vw"
-        />
-
         {/* Life cycle */}
         <section>
           <SectionHeading>{t("lifecycle")}</SectionHeading>
-          <ol className="m-0 flex list-none flex-col p-0">
+          <LifecycleTimeline />
+          <ol className="m-0 mt-gutter-2 flex list-none flex-col p-0">
             {phases.map((phase, index) => (
               <li
                 key={phase.id}
@@ -60,8 +52,16 @@ export function ApproachModule() {
               </li>
             ))}
           </ol>
-          <p className="mt-gutter-half caps text-ironbark-50">{t("designPhases")}</p>
         </section>
+
+        <TintedImage
+          src="/images/site/approach.jpg"
+          alt={t("imageAlt")}
+          width={1672}
+          height={986}
+          plain
+          sizes="(max-width: 812px) 100vw, 50vw"
+        />
 
         {/* Organisation diagram */}
         <section>

@@ -114,7 +114,8 @@
 		"specialists": "Uzman danışmanlar — yangın, aydınlatma, cephe, akustik, trafik",
 		"imageAlt": "Dekoratif portal detay ve kesiti — Maskat Uluslararası Havalimanı",
 		"organisation": "Proje Organizasyonu",
-		"diagramAlt": "Tasarım, doküman ve yapım akışlarının merkezinde proje yönetimi"
+		"diagramAlt": "Tasarım, doküman ve yapım akışlarının merkezinde proje yönetimi",
+		"lifecycleAlt": "Geliştirmeden tasarım ve yapıma, oradan işletmeye uzanan proje yaşam döngüsü"
 	},
 	"Contact": {
 		"title": "İletişim",

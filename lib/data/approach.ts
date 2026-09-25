@@ -147,6 +147,63 @@ export const disciplines = {
 };
 
 /**
+ * The project life cycle as a timeline: eight stages, the four macro phases
+ * they belong to, and the way those phases overlap. `from` / `to` are 1-based
+ * stage positions, inclusive.
+ */
+export const lifecycle = {
+  groups: [
+    { id: "development", label: l("Development", "Geliştirme"), from: 1, to: 1 },
+    { id: "design", label: l("Design Process", "Tasarım Süreci"), from: 2, to: 5 },
+    { id: "construction", label: l("Construction", "Yapım"), from: 6, to: 7 },
+    { id: "operation", label: l("Operation", "İşletme"), from: 8, to: 8 },
+  ],
+  stages: [
+    {
+      id: "project-development",
+      tone: "outline",
+      label: l("Project Development & Feasibility", "Proje Geliştirme ve Fizibilite"),
+    },
+    {
+      id: "master-plan",
+      tone: "solid",
+      phase: "1",
+      label: l("Master Plan & Pre-Concept", "Master Plan ve Ön Konsept"),
+    },
+    {
+      id: "concept",
+      tone: "solid",
+      phase: "1",
+      label: l("Concept & Schematic Design", "Konsept ve Şematik Tasarım"),
+    },
+    {
+      id: "design-development",
+      tone: "solid",
+      phase: "2",
+      label: l("Design Development Project", "Kesin Proje"),
+    },
+    {
+      id: "construction-project",
+      tone: "solid",
+      phase: "3",
+      label: l(
+        "For Construction Project, BIM Modelling & Tender Documents",
+        "Uygulama Projesi, BIM Modelleme ve İhale Dokümanları",
+      ),
+    },
+    { id: "shopdrawing", tone: "solid", label: l("Shop Drawing", "İmalat Çizimleri") },
+    { id: "as-built", tone: "solid", label: l("As-Built", "As-Built") },
+    { id: "operation", tone: "outline", label: l("Operation", "İşletme") },
+  ],
+  /** The macro phases, which overlap one another along the same timeline. */
+  spans: [
+    { id: "development-phase", label: l("Development Phase", "Geliştirme Aşaması"), from: 1, to: 5 },
+    { id: "construction-phase", label: l("Construction Phase", "Yapım Aşaması"), from: 4, to: 7 },
+    { id: "operation-phase", label: l("Operation Phase", "İşletme Aşaması"), from: 7, to: 8 },
+  ],
+} as const;
+
+/**
  * The project-organisation diagram: a hub (project management) surrounded by
  * what it coordinates, the flows that cross it, and the four bodies of work
  * it draws on. Orbit and hub labels are hand-broken because they are set on
@@ -215,7 +272,8 @@ export const diagram = {
       title: l("Document Management", "Doküman Yönetimi"),
       items: {
         en: [
-          "EDMS — electronic document management system",
+          "EDMS electronic document", 
+          "Management system",
           "DCC / DNS manual",
           "Contract management",
           "Planning",
