@@ -82,8 +82,8 @@ export function SiteHeader({ variant = "bar", className }: SiteHeaderProps) {
           {navLinks.map(({ key, href }) => renderLink(key, href, "whitespace-nowrap"))}
         </nav>
 
-        {/* Secondary navigation — contact & language */}
-        <div className="col-span-2 col-start-5 -mt-0.5 hidden site:block wide:col-span-1 wide:col-start-4">
+        {/* Secondary navigation — contact & language, sitting beside the mark */}
+        <div className="col-span-1 col-start-9 -mt-0.5 hidden whitespace-nowrap site:block wide:col-start-4">
           {navLinksRight.map(({ key, href }) => renderLink(key, href))}
           <a
             href={site.social.linkedin}
