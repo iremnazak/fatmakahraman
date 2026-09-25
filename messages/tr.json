@@ -110,12 +110,11 @@
 		"lifecycle": "Proje Yaşam Döngüsü",
 		"designPhases": "Tüm proje disiplinleri için tasarım aşamaları",
 		"phaseLabel": "Aşama",
-		"teams": "Yaşam döngüsü boyunca ekipler",
-		"teamsLabel": "Ekip",
-		"phasesLabel": "Etkin olduğu aşama",
 		"consultants": "Tasarım danışmanları",
 		"specialists": "Uzman danışmanlar — yangın, aydınlatma, cephe, akustik, trafik",
-		"imageAlt": "Dekoratif portal detay ve kesiti — Maskat Uluslararası Havalimanı"
+		"imageAlt": "Dekoratif portal detay ve kesiti — Maskat Uluslararası Havalimanı",
+		"organisation": "Proje Organizasyonu",
+		"diagramAlt": "Tasarım, doküman ve yapım akışlarının merkezinde proje yönetimi"
 	},
 	"Contact": {
 		"title": "İletişim",

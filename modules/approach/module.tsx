@@ -4,7 +4,9 @@ import type { Locale } from "@/i18n";
 import { PageGrid, ContentLeft } from "@/components/page-grid";
 import { TintedImage } from "@/components/tinted-image";
 import { SectionHeading } from "@/components/section-heading";
-import { disciplines, documentManagement, phases, teams } from "@/lib/data/approach";
+import { phases } from "@/lib/data/approach";
+
+import { ApproachDiagram } from "./diagram";
 
 export function ApproachModule() {
   const t = useTranslations("Approach");
@@ -61,38 +63,10 @@ export function ApproachModule() {
           <p className="mt-gutter-half caps text-ironbark-50">{t("designPhases")}</p>
         </section>
 
-        {/* Teams */}
+        {/* Organisation diagram */}
         <section>
-          <SectionHeading>{t("teams")}</SectionHeading>
-          <ul className="m-0 flex list-none flex-col gap-gutter-quarter p-0">
-            {teams[locale].map((team) => (
-              <li key={team.name} className="grid grid-cols-6 gap-x-gutter caps site:grid-cols-8">
-                <span className="col-span-6 site:col-span-4">{team.name}</span>
-                <span className="col-span-6 text-ironbark-50 site:col-span-4">{team.phases}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        {/* Consultants & documents */}
-        <section className="grid grid-cols-6 gap-x-gutter gap-y-gutter site:grid-cols-8">
-          <div className="col-span-6 site:col-span-4">
-            <SectionHeading>{t("consultants")}</SectionHeading>
-            <ul className="m-0 list-none p-0 caps">
-              {disciplines.items[locale].map((d) => (
-                <li key={d}>{d}</li>
-              ))}
-            </ul>
-            <p className="mt-gutter-half caps text-ironbark-50">{t("specialists")}</p>
-          </div>
-          <div className="col-span-6 site:col-span-4">
-            <SectionHeading>{documentManagement.title[locale]}</SectionHeading>
-            <ul className="m-0 list-none p-0 caps">
-              {documentManagement.items[locale].map((d) => (
-                <li key={d}>{d}</li>
-              ))}
-            </ul>
-          </div>
+          <SectionHeading>{t("organisation")}</SectionHeading>
+          <ApproachDiagram />
         </section>
       </div>
     </PageGrid>

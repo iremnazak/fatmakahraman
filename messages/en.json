@@ -110,12 +110,11 @@
 		"lifecycle": "Project Life Cycle",
 		"designPhases": "Project design phases for all project disciplines",
 		"phaseLabel": "Phase",
-		"teams": "Teams across the life cycle",
-		"teamsLabel": "Team",
-		"phasesLabel": "Active in",
 		"consultants": "Design consultants",
 		"specialists": "Specialist consultants — fire, lighting, façade, acoustic, traffic",
-		"imageAlt": "Detail and section of a decorative portal — Muscat International Airport"
+		"imageAlt": "Detail and section of a decorative portal — Muscat International Airport",
+		"organisation": "Project organisation",
+		"diagramAlt": "Project management at the centre of the design, document and construction flows"
 	},
 	"Contact": {
 		"title": "Contact",
