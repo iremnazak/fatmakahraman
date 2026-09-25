@@ -54,14 +54,7 @@ export function ApproachModule() {
           </ol>
         </section>
 
-        <TintedImage
-          src="/images/site/approach.jpg"
-          alt={t("imageAlt")}
-          width={1672}
-          height={986}
-          plain
-          sizes="(max-width: 812px) 100vw, 50vw"
-        />
+      
 
         {/* Organisation diagram */}
         <section>
