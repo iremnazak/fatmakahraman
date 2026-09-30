@@ -8,7 +8,7 @@ export const site = {
     email: "fatma@fkahraman.com",
     phone: "+90 532 642 20 87",
     phoneHref: "tel:+905326422087",
-    address: ["1. Gümüşsuyu Karamehmet Sok. 64", "34820 Istanbul", "Türkiye"],
+    address: ["Crea Centers - Merkez, Çavuşbaşı Cd. 105/1-2, 34782 Çekmeköy/İstanbul."],
     city: "Istanbul",
   },
   social: {
