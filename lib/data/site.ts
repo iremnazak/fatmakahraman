@@ -5,7 +5,7 @@ export const site = {
     tr: "Mimar / Proje Yönetimi Profesyoneli",
   },
   contact: {
-    email: "fatmaerim@gmail.com",
+    email: "fatma@fkahraman.com",
     phone: "+90 532 642 20 87",
     phoneHref: "tel:+905326422087",
     address: ["1. Gümüşsuyu Karamehmet Sok. 64", "34820 Istanbul", "Türkiye"],
